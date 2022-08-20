@@ -1,0 +1,36 @@
+.navbar {
+	display: flex;
+	font-size: 1.5rem;
+	text-align: center;
+	justify-content: right;
+	position: fixed;
+	border: 1px solid red;
+	width: 100%;
+	background: rgba(76, 175, 80, 0.1);
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #44302d;
+}
+
+.navbar > .link-tag{
+	padding:  1vh 3vh;
+	text-decoration: none;
+	margin-top: 2px;
+	color: white;
+}
+.input-div {
+	text-align: right;
+	width: 40vw;
+	max-width: 41vw;
+}
+.input-div > input {
+	width: 30vw;
+	height: 5vh;
+	margin-right: 1vw;
+	padding-left: 1vw;
+	font-size: 1.1rem;
+	border-radius: 4px;
+	background-color: white;
+}
